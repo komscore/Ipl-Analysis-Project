@@ -38,10 +38,10 @@ Built a complete data pipeline that:
 IPL-Analysis-Project/
 │
 ├── 📂 data/
-│   └── matches.csv              # Raw match-level data (636 matches)
+│   └── matches.csv                   # Raw match-level data (636 matches)
 │
 ├── 📂 etl/
-│   └── etl_pipeline.py          # Extract → Transform → Load pipeline
+│   └── etl_pipeline.py               # Extract → Transform → Load pipeline
 │
 ├── 📂 eda/
 │   ├── eda_analysis.py               # EDA script with 8 charts
@@ -65,7 +65,8 @@ IPL-Analysis-Project/
 │       ├── top_bowlers.csv
 │       ├── toss_analysis.csv
 │       └── venue_analysis.csv
----
+│
+└── README.md
 
 ## ⚙️ ETL Pipeline
 
