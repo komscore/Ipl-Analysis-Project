@@ -35,38 +35,43 @@ Built a complete data pipeline that:
 ---
 
 ## 📁 Project Structure
+
+```
 IPL-Analysis-Project/
 │
-├── 📂 data/
-│   └── matches.csv                   # Raw match-level data (636 matches)
+├── 📁 data/
+│   └── matches.csv              # Raw match-level data (636 matches)
 │
-├── 📂 etl/
-│   └── etl_pipeline.py               # Extract → Transform → Load pipeline
+├── 📁 etl/
+│   └── etl_pipeline.py          # Extract → Transform → Load pipeline
 │
-├── 📂 eda/
-│   ├── eda_analysis.py               # EDA script with 8 charts
-│   └── 📂 charts/                    # Generated PNG chart outputs
-│       ├── 01_total_wins_by_team.png
-│       ├── 02_toss_impact.png
-│       ├── 03_toss_decision_trend.png
-│       ├── 04_top_venues.png
-│       ├── 05_top_batsmen.png
-│       ├── 06_top_bowlers.png
-│       ├── 07_season_runs.png
-│       └── 08_win_distribution.png
+├── 📁 eda/
+│   └── eda_analysis.py          # EDA script with 8 charts
 │
-├── 📂 sql/
-│   ├── export_to_csv.py              # MySQL → CSV export for Power BI
-│   └── 📂 exports/                   # Exported aggregated CSV files
-│       ├── matches.csv
-│       ├── season_summary.csv
-│       ├── team_wins.csv
-│       ├── top_batsmen.csv
-│       ├── top_bowlers.csv
-│       ├── toss_analysis.csv
-│       └── venue_analysis.csv
+├── 📁 charts/                   # Generated PNG chart outputs
+│   ├── 01_total_wins_by_team.png
+│   ├── 02_toss_impact.png
+│   ├── 03_toss_decision_trend.png
+│   ├── 04_top_venues.png
+│   ├── 05_top_batsmen.png
+│   ├── 06_top_bowlers.png
+│   ├── 07_season_runs.png
+│   └── 08_win_distribution.png
+│
+├── 📁 sql/
+│   └── export_to_csv.py         # MySQL → CSV export for Power BI
+│
+├── 📁 exports/                  # Exported aggregated CSV files
+│   ├── matches.csv
+│   ├── season_summary.csv
+│   ├── team_wins.csv
+│   ├── top_batsmen.csv
+│   ├── top_bowlers.csv
+│   ├── toss_analysis.csv
+│   └── venue_analysis.csv
 │
 └── README.md
+```
 
 ## ⚙️ ETL Pipeline
 
